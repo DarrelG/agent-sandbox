@@ -27,11 +27,11 @@ public class Race {
     }
 
     public int position(Driver driver) {
-        return this.results.indexOf(driver);
+        return this.results.indexOf(driver) + 1;
     }
 
     public int getPoints(Driver driver) {
-        return Race.POINTS[position(driver)];
+        return Race.POINTS[position(driver) - 1];
     }
 
     public List<Driver> getResults() {
