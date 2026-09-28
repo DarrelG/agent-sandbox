@@ -1,2 +1,2 @@
 # agent-sandbox
-hello.py
+Test repo for the LetMeDoItForYou agent. Run `pytest` to check `utils.py`.
