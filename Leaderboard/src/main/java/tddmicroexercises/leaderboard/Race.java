@@ -27,7 +27,7 @@ public class Race {
     }
 
     public int position(Driver driver) {
-        return this.results.indexOf(driver) + 1;
+        return this.results.indexOf(driver);
     }
 
     public int getPoints(Driver driver) {
