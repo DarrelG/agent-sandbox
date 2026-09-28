@@ -1,5 +1,5 @@
 def add(a, b):
-    return a - b   # BUG: should be +
+    return a + b   # FIXED
 
 def multiply(a, b):
     return a * b
